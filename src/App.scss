@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+.hire-me {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: 0px auto 24px auto;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    text-shadow: 5px 5px 2px #23074d;
+}
+
+.hire-me::before {
+    width: 50rem;
+    height: 50rem;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #cc5333, #23074d);
+    transition: all 0.5s;
+    transform: translate(-25%, -25%);
+    z-index: -1;
+}
+
+.background {
+    background: linear-gradient(to right, #cc5333, #23074d);
+}
+
+.hire-me:hover:before {
+    transform: translate(-25%, -25%) rotate(-180deg);
+}
+
+.hire-me:hover {
+    transform: skew(5deg);
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
+}
+
+svg.star-svg {
+    display: inline;
+}
+
+.App {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.live-project:hover .live-project-title {
+    background-color: #23074d;
+}
