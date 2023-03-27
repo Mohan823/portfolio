@@ -48,6 +48,10 @@ svg.star-svg {
     scroll-snap-type: y mandatory;
 }
 
+.live-project-title {
+    transition: 0.3s;
+}
+
 .live-project:hover .live-project-title {
     background-color: #23074d;
 }

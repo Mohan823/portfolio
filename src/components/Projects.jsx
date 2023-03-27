@@ -6,11 +6,10 @@ export default function Projects({ className }) {
             <li className="relative hover:transition-all duration-700 border border-gray-200/10 hover:border-gray-200/50 hover:shadow-none shadow-lg rounded-lg">
                 <div>
                     < a href={live} target="_blank" rel="noreferrer" className="live-project p-3 block" >
-                        <div className="rounded-full relative">
-                            <img className="w-28 rounded-full aspect-square object-cover" src={img} alt="" />
-                        </div>
 
-                        <p className="live-project-title rounded-md rounded-tl-none bg-gray-800/70 text-center text-white font-handWriting text-2xl p-3">{name}</p>
+                        <img className="w-28 rounded-lg mb-2 ml-2 aspect-square object-cover shadow-lg" src={img} alt="" />
+
+                        <p className="live-project-title rounded-md  bg-gray-800/70 text-center text-white font-handWriting text-2xl p-3">{name}</p>
                     </a>
 
                     <a href={repo} target="_blank" rel="noreferrer" className=" cursor-pointer absolute top-0 right-0 flex font-mono items-center bg-[#333]/10 hover:bg-[#444]/50 p-1 px-2 gap-2 rounded-md text-white shadow-lg">
@@ -27,12 +26,12 @@ export default function Projects({ className }) {
 
     return (
         <section className={className + ' bg-gradient-reverse shadow-lg py-10 lg:px-10 px-5'}>
-            <h2 className=' italic heading-2 text-4xl border rounded-lg shadow-md border-green-200/10 text-center text-white p-5 mx-5'>
+            <h2 className=' italic heading-2 text-2xl border rounded-lg shadow-md border-green-200/10 text-center text-white p-5 mx-5'>
                 Project Insights
             </h2>
 
             <div className="card-container py-10">
-                <ul className="grid md:grid-cols-4 gap-y-16 gap-x-5">
+                <ul className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-y-5 sm:gap-y-14 gap-x-5">
                     {generateCard("Product Preview", require("../images/product-mobile.jpg"), 'https://github.com/Mohan823/product-preview-card-component', 'https://mohan823.github.io/product-preview-card-component')}
                     {generateCard("Qr Code", require("../images/qr-code.png"), 'https://github.com/Mohan823/QR-code-using-flexbox', 'https://mohan823.github.io/QR-code-using-flexbox')}
                     {generateCard("Order Summary", require("../images/illustration-hero.jpg"), 'https://github.com/Mohan823/order-summary', 'https://mohan823.github.io/order-summary')}

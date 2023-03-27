@@ -31,8 +31,8 @@ export default function Intro({ className }) {
     return (
         <div className={className + ' px-5 py-10 pt-20 text-center justify-evenly gap-5 flex items-center max-lg:flex-col'}>
             <div>
-                <img ref={imageRef} className=' rounded-full transition-all duration-1000 mb-5 max-w-sm max-h-96' src={require("../images/people.png")} alt="" />
-                <a href='#reviews' ref={btnRef} type='button' className=' hire-me shadow-lg px-6 py-3 w-full text-white font-handWriting text-4xl'>To Hire!</a>
+                <img ref={imageRef} className=' rounded-full transition-all duration-1000 mb-5 max-w-sm max-sm:max-w-xs max-h-96' src={require("../images/people.png")} alt="" />
+                <a href='#reviews' ref={btnRef} type='button' className=' hire-me shadow-lg px-6 py-3 whitespace-pre-wrap text-white font-handWriting text-4xl'>To Know More!</a>
             </div>
             <div>
                 <h1 className=' text-white text-4xl text-shadow'>Hey, Welcome I'm Mohan</h1>

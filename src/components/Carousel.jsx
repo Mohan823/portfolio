@@ -17,7 +17,7 @@ export default function Carousel({ className }) {
     }
     return (
         <section id="reviews" className={className + ' bg-gradient-reverse shadow-lg py-10 lg:px-10'}>
-            <h2 className=' italic heading-2 text-4xl border rounded-lg shadow-md border-green-200/10 text-center text-white p-5 mx-5'>
+            <h2 className=' italic heading-2 text-2xl border rounded-lg shadow-md border-green-200/10 text-center text-white p-5 mx-5'>
                 Our Customer Reviews
             </h2>
             <div className="card-container">

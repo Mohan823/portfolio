@@ -19,8 +19,8 @@ export default function Skillset({ className }) {
 
 
     return (
-        <section className={className + ' expertise bg-gradient-reverse shadow-lg p-10'}>
-            <h2 className=' italic heading-2 text-4xl border rounded-lg shadow-md border-green-200/10 text-center text-white p-5 mx-5 mb-10'>
+        <section className={className + ' expertise bg-gradient-reverse shadow-lg p-10 max-sm:px-5'}>
+            <h2 className=' italic heading-2 text-2xl border rounded-lg shadow-md border-green-200/10 text-center text-white p-5 mx-5 mb-10'>
                 Skillset
             </h2>
 
