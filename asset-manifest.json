@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f0f5d232.css",
-    "main.js": "/portfolio/static/js/main.f9b2c0ab.js",
+    "main.css": "/portfolio/static/css/main.906e532b.css",
+    "main.js": "/portfolio/static/js/main.2872ebfe.js",
     "static/media/demo-site.png": "/portfolio/static/media/demo-site.dcf514da97c22b4c5e0c.png",
     "static/media/people.png": "/portfolio/static/media/people.930e42467aa83dbe6228.png",
     "static/media/intro-form.png": "/portfolio/static/media/intro-form.fed57e25c290649db027.png",
@@ -10,7 +10,7 @@
     "static/media/profile-card.png": "/portfolio/static/media/profile-card.944dd0f17ece7f0e699b.png",
     "static/media/coming-soon.jpg": "/portfolio/static/media/coming-soon.3d1b22c068088e893fa8.jpg",
     "static/media/mi-fit-report.jpg": "/portfolio/static/media/mi-fit-report.ae79e7b8ac35964ff063.jpg",
-    "static/media/profile-card-2.png": "/portfolio/static/media/profile-card-2.00198d89886e7f4e0383.png",
+    "static/media/profile-card-2.png": "/portfolio/static/media/profile-card-2.5ea270dbcab226619fdc.png",
     "static/media/man.png": "/portfolio/static/media/man.3ecfcf6a94a7b9719a24.png",
     "static/media/states-preview.jpg": "/portfolio/static/media/states-preview.399f71e732a77d1f56c6.jpg",
     "static/media/people-3.jpg": "/portfolio/static/media/people-3.074b0da1183e629c0dfd.jpg",
@@ -23,11 +23,11 @@
     "static/media/people-4.jpg": "/portfolio/static/media/people-4.dde2ca0e045297bc9b94.jpg",
     "static/media/people-1.webp": "/portfolio/static/media/people-1.76004360a683a9785212.webp",
     "index.html": "/portfolio/index.html",
-    "main.f0f5d232.css.map": "/portfolio/static/css/main.f0f5d232.css.map",
-    "main.f9b2c0ab.js.map": "/portfolio/static/js/main.f9b2c0ab.js.map"
+    "main.906e532b.css.map": "/portfolio/static/css/main.906e532b.css.map",
+    "main.2872ebfe.js.map": "/portfolio/static/js/main.2872ebfe.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0f5d232.css",
-    "static/js/main.f9b2c0ab.js"
+    "static/css/main.906e532b.css",
+    "static/js/main.2872ebfe.js"
   ]
 }
