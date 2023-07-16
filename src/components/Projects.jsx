@@ -25,7 +25,7 @@ export default function Projects({ className }) {
     }
 
     return (
-        <section className={className + ' bg-gradient-reverse shadow-lg py-10 lg:px-10 px-5'}>
+        <section id="reviews" className={className + ' bg-gradient-reverse shadow-lg py-10 lg:px-10 px-5'}>
             <h2 className=' italic heading-2 text-2xl border rounded-lg shadow-md border-green-200/10 text-center text-white p-5 mx-5'>
                 Project Insights
             </h2>
