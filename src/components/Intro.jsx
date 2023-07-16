@@ -5,7 +5,7 @@ export default function Intro({ className }) {
     const btnRef = useRef();
     const imageRef = useRef();
     const [text] = useTypewriter({
-        words: ["Currently working in kashiv infotech also a freelancer who shows attitude in their projects.",
+        words: ["Currently working in Human Cloud Soft also a freelancer who shows attitude in their projects.",
             "Eager to waiting for your projects..."
         ],
         typeSpeed: 100,

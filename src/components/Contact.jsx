@@ -12,7 +12,7 @@ export default function Contact({ className }) {
                     </svg>
 
                 </span>
-                <a href="mailto:rmohankrishnamech@gmail.com" className="text-white indent-2">&nbsp;&nbsp;&nbsp;&nbsp;{skill}</a>
+                <a href="mailto:mohankrishnadeveloper@gmail.com" className="text-white indent-2">&nbsp;&nbsp;&nbsp;&nbsp;{skill}</a>
 
             </li>
         )
@@ -27,7 +27,7 @@ export default function Contact({ className }) {
 
             <div>
                 <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-                    {genContext("Rmohankrishnamech@gmail.com")}
+                    {genContext("Mohankrishnadeveloper@gmail.com")}
                 </ul>
             </div>
 
