@@ -22,7 +22,7 @@ function App() {
 
         <main>
 
-          <Carousel />
+          {/* <Carousel /> */}
 
           <Projects />
 
